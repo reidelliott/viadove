@@ -40,5 +40,8 @@ body {
 	margin: 30px auto;
 }
 #main h1, #main .h1 { margin: 30px auto; }
-
+#main h2 { margin: 0 0 30px; }
+#main p { font-size: 1.3em; line-height: 1.3em; margin: 15px 0;}
 a { color: #dfdfdf; }
+
+img { max-width: 100%; height: auto; }

@@ -1,0 +1,42 @@
+html, body, h1, h2, h3, h4, h5, p, ul, ol, li {
+	margin:0;
+	padding:0;
+	font-weight:normal;
+	}
+html {
+	height: 100%;
+	min-height:100% !important;
+	background:#1d1d1d;
+	}
+* html body {height:100%;}
+* { box-sizing: border-box; }
+a, input, textarea {outline:0 none; outline-style:none;}
+a {cursor:pointer;}
+.indent {
+	text-indent:-9999px;
+	}
+.left {
+	float:left;
+	}
+.right {
+	float:right;
+	}
+.clear {
+	clear:both;
+	}
+
+body {
+	text-align:center;
+	font-family:"Georgia", serif;
+	font-size:12px;
+	color:#f5f5f5;
+	position:relative;
+	min-height:100%;
+	background:url() 0 0 repeat-x #1d1d1d;
+	line-height:18px;
+	}
+
+#main {
+	margin: 30px auto;
+}
+#main h1, #main .h1 { margin: 30px auto; }

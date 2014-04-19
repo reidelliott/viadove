@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'alte_haas_groteskregular';
+    src: url('../fonts/altehaasgroteskregular-webfont.eot');
+    src: url('../fonts/altehaasgroteskregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/altehaasgroteskregular-webfont.woff') format('woff'),
+         url('../fonts/altehaasgroteskregular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alte_haas_groteskbold';
+    src: url('../fonts/altehaasgroteskbold-webfont.eot');
+    src: url('../fonts/altehaasgroteskbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/altehaasgroteskbold-webfont.woff') format('woff'),
+         url('../fonts/altehaasgroteskbold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html, body, h1, h2, h3, h4, h5, p, ul, ol, li {
 	margin:0;
 	padding:0;
@@ -6,7 +28,6 @@ html, body, h1, h2, h3, h4, h5, p, ul, ol, li {
 html {
 	height: 100%;
 	min-height:100% !important;
-	background:#1d1d1d;
 	}
 * html body {height:100%;}
 * { box-sizing: border-box; }
@@ -27,21 +48,33 @@ a {cursor:pointer;}
 
 body {
 	text-align:center;
-	font-family:"Georgia", serif;
+	font-family:'alte_haas_groteskregular','Helvetica',sans-serif;
 	font-size:12px;
-	color:#f5f5f5;
+	color:#281b25;
 	position:relative;
 	min-height:100%;
-	background:url() 0 0 repeat-x #1d1d1d;
+	background:url() 0 0 repeat-x #cdc5bc;
 	line-height:18px;
+	text-rendering: optimizeLegibility;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
 	}
 
 #main {
-	margin: 30px auto;
+	margin: 0 auto;
 }
 #main h1, #main .h1 { margin: 30px auto; }
 #main h2 { margin: 0 0 30px; }
 #main p { font-size: 1.3em; line-height: 1.3em; margin: 15px 0;}
-a { color: #dfdfdf; }
+a { text-decoration: underline; color: #65445d; }
+a:hover { text-decoration:none; color: #835978; }
 
 img { max-width: 100%; height: auto; }
+
+strong, h1, h2, h3, h4, h5 { font-family:'alte_haas_groteskbold','Helvetica',sans-serif; font-weight: normal;}
+p { color: #463041; font-family:"Courier New", Courier, monospace; font-weight: normal; letter-spacing: 1px; }
+p.muted { line-height: 15px !important; margin-top: 0 !important;}
+p strong {font-family:"Courier New", Courier, monospace; font-weight: bold; letter-spacing: 2px;}
+h5 { font-size:16px !important; margin-top: 25px;}
